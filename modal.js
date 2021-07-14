@@ -10,17 +10,6 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
-  var text = document.getElementById("text");
-  switch(window.location.href) {
-    case "https://litvabonami.webflow.io/":
-        text.innerHTML = "BONAMI LT";
-      break;
-    case y:
-      // code block
-      break;
-    default:
-      // code block
- 
 }
 
 // When the user clicks on <span> (x), close the modal
