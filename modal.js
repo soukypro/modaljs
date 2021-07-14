@@ -1,5 +1,5 @@
 (function() {
-// Get the modal
+    // Get the modal
 var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
@@ -23,5 +23,5 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
-}}
+}
 })();
