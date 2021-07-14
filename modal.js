@@ -1,4 +1,5 @@
 (function() {
+    console.log("Ahoj");
     // Get the modal
 var modal = document.getElementById("myModal");
 
