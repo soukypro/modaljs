@@ -1,3 +1,10 @@
+$(document).ready(function() {
+
+  if(window.location.href.indexOf('#myModal') != -1) {
+    $('#myModal').modal('show');
+  }
+
+});
 (function() {
     console.log("Ahoj");
     // Get the modal
