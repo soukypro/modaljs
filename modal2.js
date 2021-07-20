@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  
+  var modal = document.getElementById("myModal");
 
   if(window.location.href.indexOf('#myModal') != -1) {
     $('#myModal').modal('show');
@@ -16,6 +18,9 @@ var btn = document.getElementById("myBtn");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+ if(window.location.href.indexOf('#myModal') != -1) {
+   modal.style.display = "block";
+ };
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
