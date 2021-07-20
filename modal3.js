@@ -2,7 +2,7 @@ $(document).ready(function() {
   
   var modal = document.getElementById("myModal");
 
-  if(window.location.href.indexOf('#myModal') != -1) {
+  if(window.location.href.indexOf('#gdpr') != -1) {
     $('#myModal').modal('show');
   }
 
